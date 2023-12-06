@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+.header-container,
+.links-container {
+  @apply flex justify-between items-center p-2;
+}
+
+.footer-link {
+  @apply flex flex-col gap-6 text-base min-w-[170px];
+}
+
+.footer-links {
+  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+}
+
+.footer-copyrights-link {
+  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
+}
