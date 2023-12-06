@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="header-container">
       <div>
-        <h1>Fresh</h1>
+        <h1 className="text-4xl font-bold font-serif">Fresh</h1>
       </div>
       <div>
         <ul className="links-container">

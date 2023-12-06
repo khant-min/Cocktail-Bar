@@ -31,6 +31,10 @@ body {
   @apply flex justify-between items-center p-2;
 }
 
+.links-container li {
+  @apply p-4;
+}
+
 .footer-link {
   @apply flex flex-col gap-6 text-base min-w-[170px];
 }
